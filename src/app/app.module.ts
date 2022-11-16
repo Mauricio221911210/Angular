@@ -15,6 +15,9 @@ import { PaisTarjetaComponent } from './components/pais-tarjeta/pais-tarjeta.com
 import { PaisDetalleComponent } from './components/pais-detalle/pais-detalle.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PaisesService } from './services/paises.service';
+import { SessionComponent } from './components/session/session.component';
+import { DetailComponent } from './components/detail/detail.component';
+
 
 
 
@@ -29,7 +32,10 @@ import { PaisesService } from './services/paises.service';
     MateriaComponent,
     PaisesComponent,
     PaisTarjetaComponent,
-    PaisDetalleComponent
+    PaisDetalleComponent,
+    SessionComponent,
+    DetailComponent,
+
   ],
   imports: [
     BrowserModule,

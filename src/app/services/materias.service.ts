@@ -9,27 +9,27 @@ export class MateriasService {
   constructor() { }
   private materias:Materia[]=[{
     cuatrimestre: 1,
-    materias:"Fundamentos de TI, Fundamentos de Redes, Metodología de la Programación, Expresión Oral y Escrita I, Formación Sociocultural I, Inglés I",
+    materias:"Animal Porcino de 12 Kg saludable apenas vacunado",
     fecha: "2021-01-01",
-    imagen: "assets/images/logo_utvt.jpg"
+    imagen: "assets/images/puerco1.png"
   },
   {
     cuatrimestre: 2,
-    materias:"Funciones Matemáticas, Metodologías y Modelado de   Desarrollode Software, Interconexión de Redes, Introducción al Diseño Digital, Programación Orientada a Objetos, Base de Datos, Formación Sociocultural II, Inglés II",
+    materias:"Lechones de 2 meses de nacimiento vacunados recientemente ",
     fecha: "2021-09-01",
-    imagen: "assets/images/logo_utvt.jpg"
+    imagen: "assets/images/puercos.png"
   },
   {
     cuatrimestre: 3,
-    materias:" Cálculo Diferencial, Probabilidad y Estadística, Sistemas Operativos, Integradora I, Aplicaciones Web, Base de Datos para Aplicaciones, Formación Sociocultural III, Inglés III",
+    materias:" Gallinas Ponedoras ",
     fecha: "2021-09-01",
-    imagen: "assets/images/logo_utvt.jpg"
+    imagen: "assets/images/gallinas.png"
   },
   {
     cuatrimestre: 4,
-    materias:"Estructura de Datos Aplicadas, Aplicaciones Web Orientada a Servicios, Evaluación y Mejora para el Desarrollo   de Software, Formación Sociocultural IV, Inglés IV",
+    materias:"Oveja de 1 año lista para matar  ",
     fecha: "2021-09-01",
-    imagen: "assets/images/logo_utvt.jpg"
+    imagen: "assets/images/oveja.png"
   }];
 
   getMaterias():Materia[]{

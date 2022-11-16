@@ -17,7 +17,7 @@ export class PaisDetalleComponent implements OnInit {
   ) { 
     this.activatedRoute.params.subscribe(params => {
       const id = params['id'];
-     this._paisesService.getPais(id).subscribe(response => this.pais = response);
+    /* this._paisesService.getPais(id).subscribe(response => this.pais = response);*/
     });
   }
 

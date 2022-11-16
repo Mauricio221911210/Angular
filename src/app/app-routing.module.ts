@@ -5,6 +5,8 @@ import { DirectivasComponent } from './components/directivas/directivas.componen
 import { MateriasComponent } from './components/materias/materias.component';
 import { PaisDetalleComponent } from './components/pais-detalle/pais-detalle.component';
 import { PaisesComponent } from './components/paises/paises.component';
+import { SessionComponent } from './components/session/session.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 
 const ROUTES: Routes = [
@@ -27,6 +29,14 @@ const ROUTES: Routes = [
   {
   path: 'detallePais/:id', 
   component: PaisDetalleComponent,
+},
+{
+  path: 'session', 
+  component: SessionComponent,
+},
+{
+  path: 'detail', 
+  component: DetailComponent,
 },
 {
   path: '',
